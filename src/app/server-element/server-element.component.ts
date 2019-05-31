@@ -29,8 +29,8 @@ AfterViewInit,
 AfterViewChecked, 
 OnDestroy {
   @Input('srvElement') element: {type: string, name: string, content: string};
-  @ViewChild('heading') header: ElementRef;
-  @ContentChild('contentParagraph') paragraph: ElementRef;
+  // @ViewChild('heading') header: ElementRef;
+  // @ContentChild('contentParagraph') paragraph: ElementRef;
 
   constructor() { }
 
